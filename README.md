@@ -35,9 +35,11 @@ GitHub is an online platform that helps you **store**, **share**, and **work on 
 
 ### 3️⃣ **Create Your First Repository**
 - Click **New** or **+** in the top corner.
-- ![Screenshot 2025-07-01 201223](https://github.com/user-attachments/assets/cccdc548-90c6-4666-ba26-882ae04c8ffb)
-- Name your repo (e.g., `my-first-project`).
+- ![Screenshot1](https://github.com/user-attachments/assets/5431c69e-e1c7-458a-9a32-98749a6ab79b)
+- Name your repo (e.g., `hello-world`).
+- ![Screenshot2](https://github.com/user-attachments/assets/a257bcbf-8b95-46f4-bf7c-4ad2af4cbd56)
 - Choose **Public** (free) or **Private**.
+- ![Screenshot3](https://github.com/user-attachments/assets/344e5230-1cae-4762-9982-cacb92414703)
 - Add a README (recommended).
 
 ### 4️⃣ **Explore & Learn**
