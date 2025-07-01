@@ -33,23 +33,40 @@ GitHub is an online platform that helps you **store**, **share**, and **work on 
 - Add a picture and bio (optional but helpful).
 - It makes you look professional when sharing projects.
 
-### 3️⃣ **Install Git (Optional but Recommended)**
-- Download from [git-scm.com](https://git-scm.com).
-- It lets you use Git from your computer.
-- Click Downloads,
-- Select your OS (eg. Microsoft), it will open up the download page for your OS.
-- Click on the latest version and the installation package will start downloading.
-- Summarizing: Open Link > Click Downloads > Select OS > Click on latest version and download file
-
-### 4️⃣ **Create Your First Repository**
+### 3️⃣ **Create Your First Repository**
 - Click **New** or **+** in the top corner.
 - Name your repo (e.g., `my-first-project`).
 - Choose **Public** (free) or **Private**.
 - Add a README (recommended).
 
-### 5️⃣ **Explore & Learn**
+### 4️⃣ **Explore & Learn**
 - Check out **GitHub Docs** for guides.
 - Try basic commands: `git init`, `git add`, `git commit`, `git push`.
 
 > 💡 *Think of a repo as a folder for your project. Once it's set up, you can save, share, and update your code easily!*
 
+### 5️⃣ **Install Git (Optional but Recommended)**
+**What is Git?**  
+Git is a tool on your computer that **tracks changes** to your code.
+
+**How is it related to GitHub?**  
+GitHub is like **the online home** for your Git projects. You use Git to save and manage changes locally, then **upload (push)** them to GitHub to back up or share.
+
+**Purpose (Simple):**  
+✅ Keep history of your code.  
+✅ Undo mistakes.  
+✅ Share with others easily.
+
+> 💡 *Think of Git as a save button with unlimited undos. GitHub is where you store those saves online.*
+
+
+- Download from [git-scm.com](https://git-scm.com).
+- It lets you use Git from your computer.
+- Click Downloads,
+- Select your OS (eg. Microsoft), it will open up the download page for your OS.
+- Click on the latest version and the installation package will start downloading.
+- Install the package after
+- Summarizing: Open Link > Click Downloads > Select OS > Click on latest version and download file
+- Refer link: https://www.youtube.com/watch?v=t2-l3WvWvqg&t=39s (Microsoft), https://www.youtube.com/watch?v=9GZmaxaQV0c (MacOS), https://www.youtube.com/watch?v=bc3_FL9zWWs (Linux)  for demo videos
+
+## Git commands
