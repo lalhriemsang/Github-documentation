@@ -1,2 +1,4 @@
 # Github-documentation for starters
-Github doc for Internship
+
+### Why use Github?
+
