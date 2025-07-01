@@ -36,6 +36,9 @@ GitHub is an online platform that helps you **store**, **share**, and **work on 
 ### 3️⃣ **Install Git (Optional but Recommended)**
 - Download from [git-scm.com](https://git-scm.com).
 - It lets you use Git from your computer.
+- Click Downloads,
+- Select your OS (eg. Microsoft), it will open up the download page for your OS.
+- Click on the latest version and the installation package will start downloading.
 
 ### 4️⃣ **Create Your First Repository**
 - Click **New** or **+** in the top corner.
