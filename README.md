@@ -72,7 +72,39 @@ GitHub is like **the online home** for your Git projects. You use Git to save an
 - Summarizing: Open Link > Click Downloads > Select OS > Click on latest version and download file
 - Refer links: https://www.youtube.com/watch?v=t2-l3WvWvqg&t=39s (Microsoft), https://www.youtube.com/watch?v=9GZmaxaQV0c (MacOS), https://www.youtube.com/watch?v=bc3_FL9zWWs (Linux)  for demo videos
 
-## Github & Git commands
-### Github
-**Pushing a file**
+## GitHub Branches: Beginner's Guide 🌿
 
+Branches let you work on different versions of your project without affecting the main code. Think of them as parallel timelines!
+
+### Key Concepts
+- **`main` branch**: Default branch (your "production" code)
+- **Feature branches**: Temporary branches for new work (e.g., `feature/login-page`)
+- **HEAD**: Your current working branch (like a "you are here" marker)
+
+### Essential Commands
+
+#### Create a Branch
+```bash
+git branch BRANCH_NAME          # Create branch
+````
+
+#### Create and switch to a new branch
+````bash
+git checkout -b my-feature-branch
+````
+
+#### Check existing branches
+````bash
+git branch           # local branches
+git branch -r        # remote branches
+git branch -a        # all branches
+````
+#### Make changes and commit them
+````bash
+git add .
+git commit -m "Add my new feature"
+````
+#### Push your branch to GitHub
+````bash
+git push origin my-feature-branch
+````
