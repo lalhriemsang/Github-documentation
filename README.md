@@ -19,9 +19,7 @@ GitHub is an online platform that helps you **store**, **share**, and **work on 
 - ✅ **Learn Industry Standards**  
   Git and GitHub are used everywhere. Knowing them is essential.
 
-> 🔹 **For a starter:** It’s like saving your school project in Google Drive, but better for code. It helps you stay organized and learn teamwork early.
-
-## How to Get Started on GitHub? 🚀
+## Getting started with Github? 🚀
 
 ### 1️⃣ **Create an Account**
 - Go to [github.com](https://github.com).
