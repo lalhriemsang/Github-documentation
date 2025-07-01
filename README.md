@@ -39,6 +39,7 @@ GitHub is an online platform that helps you **store**, **share**, and **work on 
 - Click Downloads,
 - Select your OS (eg. Microsoft), it will open up the download page for your OS.
 - Click on the latest version and the installation package will start downloading.
+- Summarizing: Open Link > Click Downloads > Select OS > Click on latest version and download file
 
 ### 4️⃣ **Create Your First Repository**
 - Click **New** or **+** in the top corner.
