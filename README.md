@@ -35,6 +35,7 @@ GitHub is an online platform that helps you **store**, **share**, and **work on 
 
 ### 3️⃣ **Create Your First Repository**
 - Click **New** or **+** in the top corner.
+- ![Screenshot 2025-07-01 201223](https://github.com/user-attachments/assets/cccdc548-90c6-4666-ba26-882ae04c8ffb)
 - Name your repo (e.g., `my-first-project`).
 - Choose **Public** (free) or **Private**.
 - Add a README (recommended).
@@ -67,6 +68,9 @@ GitHub is like **the online home** for your Git projects. You use Git to save an
 - Click on the latest version and the installation package will start downloading.
 - Install the package after
 - Summarizing: Open Link > Click Downloads > Select OS > Click on latest version and download file
-- Refer link: https://www.youtube.com/watch?v=t2-l3WvWvqg&t=39s (Microsoft), https://www.youtube.com/watch?v=9GZmaxaQV0c (MacOS), https://www.youtube.com/watch?v=bc3_FL9zWWs (Linux)  for demo videos
+- Refer links: https://www.youtube.com/watch?v=t2-l3WvWvqg&t=39s (Microsoft), https://www.youtube.com/watch?v=9GZmaxaQV0c (MacOS), https://www.youtube.com/watch?v=bc3_FL9zWWs (Linux)  for demo videos
 
-## Git commands
+## Github & Git commands
+### Github
+**Pushing a file**
+
