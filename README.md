@@ -60,7 +60,6 @@ GitHub is like **the online home** for your Git projects. You use Git to save an
 
 > 💡 *Think of Git as a save button with unlimited undos. GitHub is where you store those saves online.*
 
-
 - Download from [git-scm.com](https://git-scm.com).
 - It lets you use Git from your computer.
 - Click Downloads,
@@ -69,6 +68,51 @@ GitHub is like **the online home** for your Git projects. You use Git to save an
 - Install the package after
 - Summarizing: Open Link > Click Downloads > Select OS > Click on latest version and download file
 - Refer links: https://www.youtube.com/watch?v=t2-l3WvWvqg&t=39s (Microsoft), https://www.youtube.com/watch?v=9GZmaxaQV0c (MacOS), https://www.youtube.com/watch?v=bc3_FL9zWWs (Linux)  for demo videos
+
+## Git Basics: Where to Run Commands 💻
+
+Before going any further, you need to know **where** and **how** to run Git commands on your local machine:
+
+### 1️⃣ Open Your Terminal
+- **Windows**: 
+  - Press `Win + R`, type `cmd` (Command Prompt) or `powershell`
+  - Or use Git Bash (installed with Git)
+  
+- **Mac/Linux**:
+  - Open Terminal (`Command + Space` → search "Terminal")
+
+### 2️⃣ Navigate to Your Project
+First, go to your project folder:
+```bash
+cd path/to/your/project
+```
+**Example**: cd Desktop/my-project
+
+### 3️⃣ Initialize Git (If New Project)
+Only needed once per project:
+```bash
+git init
+```
+
+### 4️⃣ Connect to GitHub (First Time)
+```bash
+git remote add origin https://github.com/your-username/repo-name.git
+```
+
+### 5️⃣ Basic Workflow
+1. Make changes in your code editor
+2. Stage changes:
+```bash
+git add .
+```
+3. Commit changes:
+```bash
+git commit -m "Describe your changes"
+```
+4. Push to GitHub:
+```bash
+git push origin main
+```
 
 ## GitHub Branches: Beginner's Guide 🌿
 
