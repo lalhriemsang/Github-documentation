@@ -116,13 +116,20 @@ git commit -m "Describe your changes"
 git branch          # Lists all branches in your repository.
 ```
 ![git branch](https://github.com/user-attachments/assets/faa387fa-4370-41a4-8b8a-111840dae48e)
-**Asterisks (\*) shows which branch you're currently in**
+***Asterisks (\*) shows which branch you're currently in***
 
 
 5. Push to GitHub:
 ```bash
 git push origin master          # or git push origin main depending on the branch you're currenlty in
 ```
+![git push](https://github.com/user-attachments/assets/b714defe-e1ac-4be3-b91f-bb2a22f447b9)
+
+***Select branch where you added/updated you're file:***
+![select branch](https://github.com/user-attachments/assets/949cb78d-44e8-4931-b188-59ad5497cd95)
+***View File:***
+![added file screenshot](https://github.com/user-attachments/assets/19b5a88f-5cff-4a95-ae5c-4773125edad3)
+
 
 ### 6️⃣ Undoing Changes
 **Undoing Unstaged Changes**
