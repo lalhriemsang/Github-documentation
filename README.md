@@ -114,7 +114,7 @@ git commit -m "Describe your changes"
 git push origin main
 ```
 
-### Undoing Changes
+### 6️⃣ Undoing Changes
 **Undoing Unstaged Changes**
 Discard changes to a specific file:
 ```bash
