@@ -114,6 +114,54 @@ git commit -m "Describe your changes"
 git push origin main
 ```
 
+### Undoing Changes
+**Undoing Unstaged Changes**
+Discard changes to a specific file:
+```bash
+git checkout -- filename
+```
+Discard all unstaged changes:
+```bash
+git restore .
+```
+**Undoing Staged Changes**
+Unstage a file (keep changes):
+```bash
+git restore --staged filename
+```
+Unstage all files (keep changes):
+```bash
+git reset
+```
+**Undoing Commits**
+Undo last commit (keeps changes staged):
+```bash
+git reset --soft HEAD~1
+```
+Undo last commit (keeps changes unstaged):
+```bash
+git reset HEAD~1
+```
+Undo last commit (discards changes completely):
+```bash
+git reset --hard HEAD~1
+```
+Change last commit message:
+```bash
+git commit --amend -m "New commit message"
+```
+Add forgotten files to last commit:
+```bash
+git add forgotten-file
+git commit --amend --no-edit
+```
+**Reverting Pushed Commits**
+Create a new commit that undoes changes:
+```bash
+git revert COMMIT_HASH
+```
+> ⚠️ Warning: Be careful with git reset --hard and git push --force as they can permanently erase work.
+
 ## GitHub Branches: Beginner's Guide 🌿
 
 Branches let you work on different versions of your project without affecting the main code. Think of them as parallel timelines!
