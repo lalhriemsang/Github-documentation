@@ -99,7 +99,8 @@ git init
 git remote add origin https://github.com/your-username/repo-name.git
 ```
 
-### 5️⃣ Basic Workflow
+### 5️⃣ Basic Commands
+**Push Command**
 1. Make changes in your code editor
 2. Stage changes:
 ```bash
@@ -109,13 +110,25 @@ git add .
 ```bash
 git commit -m "Describe your changes"
 ```
-4. Push to GitHub:
+![git init-commit](https://github.com/user-attachments/assets/fe870002-f76a-49c1-9671-01a93520aaa6)
+4. Its always good to check which branch you're currently in.
 ```bash
-git push origin main
+git branch          # Lists all branches in your repository.
+```
+![git branch](https://github.com/user-attachments/assets/faa387fa-4370-41a4-8b8a-111840dae48e)
+**Asterisks (\*) shows which branch you're currently in**
+
+
+5. Push to GitHub:
+```bash
+git push origin master          # or git push origin main depending on the branch you're currenlty in
 ```
 
 ### 6️⃣ Undoing Changes
 **Undoing Unstaged Changes**
+*When you changed a file but didn't git add it yet*
+
+
 Discard changes to a specific file:
 ```bash
 git checkout -- filename
@@ -124,7 +137,13 @@ Discard all unstaged changes:
 ```bash
 git restore .
 ```
+*This throws away your recent changes to that file, bringing it back to how it was in your last commit.*
+
+
 **Undoing Staged Changes**
+*When you added changes with git add but want to un-add them*
+
+
 Unstage a file (keep changes):
 ```bash
 git restore --staged filename
@@ -133,6 +152,9 @@ Unstage all files (keep changes):
 ```bash
 git reset
 ```
+*This takes the file out of the "ready to commit" area but keeps your changes.*
+
+
 **Undoing Commits**
 Undo last commit (keeps changes staged):
 ```bash
