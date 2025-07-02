@@ -100,7 +100,7 @@ git remote add origin https://github.com/your-username/repo-name.git
 ```
 
 ### 5️⃣ Basic Commands
-**Push Command**
+**1. Push Command**: Uploads your local commits (code changes) to the remote repository (e.g., GitHub).
 1. Make changes in your code editor
 2. Stage changes:
 ```bash
@@ -129,6 +129,9 @@ git push origin master          # or git push origin main depending on the branc
 ![select branch](https://github.com/user-attachments/assets/949cb78d-44e8-4931-b188-59ad5497cd95)
 ***View File:***
 ![added file screenshot](https://github.com/user-attachments/assets/19b5a88f-5cff-4a95-ae5c-4773125edad3)
+
+
+**2. Pull Command**: Downloads the latest changes from the remote repository (e.g., GitHub) and merges them into your local branch.
 
 
 ### 6️⃣ Undoing Changes
