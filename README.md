@@ -150,3 +150,48 @@ git commit -m "Add my new feature"
 ````bash
 git push origin my-feature-branch
 ````
+✅ Your branch is now on GitHub.
+
+### Create a Pull Request (PR)
+- Go to your repo on GitHub.
+- Click Compare & pull request.
+- Add title/description.
+- Submit.
+- ✅ This asks to merge your changes into main.
+
+### Keep Your Branch Updated with main
+If main has new commits, sync them into your branch: 
+**Merge method:** 
+```bash
+git checkout main
+git pull origin main
+git checkout my-feature-branch
+git merge main
+```
+**Rebase method (cleaner history):**
+```bash
+git checkout my-feature-branch
+git fetch origin
+git rebase origin/main
+```
+### Delete a Branch After Merging
+**Delete locally:**
+```bash
+git branch -d my-feature-branch
+```
+**Delete on Github**
+```bash
+git push origin --delete my-feature-branch
+```
+
+### ✅ Quick Command Reference
+- Task	Command
+- List local branches:	*git branch*
+- List remote branches:	*git branch -r*
+- Create and switch branch:	*git checkout -b new-branch*
+- Switch branches:	*git checkout branch-name*
+- Push branch to GitHub:	*git push origin branch-name*
+- Delete local branch:	*git branch -d branch-name*
+- Delete remote branch:	*git push origin --delete branch-name*
+- Merge into main:	*git checkout main* + *git merge branch-name*
+- Rebase onto main:	*git rebase main*
